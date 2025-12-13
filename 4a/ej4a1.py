@@ -36,11 +36,12 @@ Exemple:
 list_1 = [1, 2, 3, 4, 5]
 list_2 = [4, 5, 6, 7, 8]
 
-
 def find_intersection(list_1, list_2):
-    # Write here your code
-    pass
-
+    final_list = []
+    for element in list_1:
+        if element in list_2:
+            final_list.append(element)
+return final_list
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
