@@ -38,7 +38,9 @@ Exemple:
 
 def descending_list_iterator(numbers_list):
     # Write here your code
-    for number in numbers_list:
+    return iter(sorted(numbers_list, reverse=True))
+
+
         
 
 
