@@ -34,9 +34,15 @@ Exemple:
          "Result: " 11
 """
 
-def sum():
+def suma():
     # Write here your code
-    pass
+    numbers = []
+    number_1 = float(input("Ingresa un número:"))
+    numbers.append(number_1)
+    number_2 = float(input("Ingresa otro número:"))
+    numbers.append(number_2)
+    total = sum(numbers)
+    return total
 
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
